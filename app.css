@@ -1,0 +1,98 @@
+body {
+  /* background-color: #485955; */
+  background: url(imgs/bar2.jpg);
+  font-family: "Nunito", sans-serif;
+background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: top; */
+
+}
+
+h2 {
+  color: #d38b26;
+  font-weight: 100;
+  letter-spacing: 0.6rem;
+  font-size: 2.5rem;
+}
+
+p {
+  color: #ccc4ab;
+  font-weight: 100;
+  font-size: 1.125rem;
+  letter-spacing: 0.3rem;
+  line-height: 2;
+}
+#mainNav {
+  /* background: url(imgs/back.jpg); */
+  font-size: 1.5rem;
+  font-weight: 100;
+
+}
+
+#beer {
+  color: #d38b26;
+}
+
+.content {
+margin-top: 75px;
+margin-bottom: 75px;
+
+}
+#mainNav .nav-link {
+  color: white;
+  letter-spacing: 0.2rem;
+}
+
+#mainNav .nav-link:hover {
+  color: #d38b26;
+}
+
+/* allages sto Beer Koulis */
+#mainNav .navbar-brand {
+  color: #f7f3ed;
+  letter-spacing: 0.3rem;
+  /* font-size: 1.5rem; */
+  /* font-weight:100; */
+}
+
+/* allages sta span  */
+#headinggroup span {
+  color: #d38b26;
+  text-shadow:0px 1px 3px rgba(239, 160, 50,0.5),
+              0px 3px 9px rgba(219, 149, 52,0.2),
+              0px 10px 13px rgba(122, 79, 19,0.2);
+}
+
+#headinggroup #span2 {
+  color: #c17d94;
+  text-shadow:0px 2px 4px rgba(226, 136, 166,0.5),
+              0px 4px 7px rgba(158, 90, 113,0.2),
+              0px 6px 9px rgba(170, 95, 121,0.2);
+}
+
+/* allages stis h1 */
+#headinggroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+  /* line-height: 1.4; */
+}
+/* allazei otan ginetai scroll; */
+.navbar.scrolled {
+    background: rgba(211, 139, 38,0.65);
+    transition: background 500ms;
+}
+
+#endgame {
+  font-size:1.9rem;
+}
+/* mikrainei ta grammata otan mikraineis to parathuro */
+@media (max-width: 1200px) {
+  #headinggroup h1 {
+    font-weight: 100;
+    font-size: 2rem;
+  }
+}
+#credits {
+  color: rgba(211, 139, 38,0.65);
+  font-size: 0.6rem;
+}
